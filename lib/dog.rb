@@ -10,7 +10,7 @@ class Dog
   end
   
   def self.all 
-    return all.length
+    return @@all.length
   end
   
   def self.print_all
